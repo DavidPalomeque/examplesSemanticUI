@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Theming - Semantic</title>
+  <title>Semantic UI Templates</title>
   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <!-- SEMANTIC-UI -->
@@ -12,39 +12,7 @@
 
   <script src="../assets/library/jquery.min.js"></script>
   <script src="../assets/library/iframe.js"></script>
-  <style type="text/css">
-    body > .ui.container {
-      margin-top: 3em;
-    }
-    iframe {
-      border: none;
-      width: calc(100% + 2em);
-      margin: 0em -1em;
-      height: 300px;
-    }
-    iframe html {
-      overflow: hidden;
-    }
-    iframe body {
-      padding: 0em;
-    }
 
-    .ui.container > h1 {
-      font-size: 3em;
-      text-align: center;
-      font-weight: normal;
-    }
-    .ui.container > h2.dividing.header {
-      font-size: 2em;
-      font-weight: normal;
-      margin: 4em 0em 3em;
-    }
-
-
-    .ui.table {
-      table-layout: fixed;
-    }
-  </style>
 </head>
 <body>
 
@@ -72,14 +40,53 @@
 
 </div>
 
+<style>
+
+  body > .ui.container {
+    margin-top: 3em;
+  }
+
+  iframe {
+    border: none;
+    width: calc(100% + 2em);
+    margin: 0em -1em;
+    height: 300px;
+  }
+  iframe html {
+    overflow: hidden;
+  }
+  iframe body {
+    padding: 0em;
+  }
+
+  .ui.container > h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: normal;
+  }
+  .ui.container > h2.dividing.header {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 4em 0em 3em;
+  }
+
+
+  .ui.table {
+    table-layout: fixed;
+  }
+
+</style>
 
 <script>
+
 $('iframe').iFrameResize({
   autoResize: true,
   checkOrigin: false,
   heightCalculationMethod: 'bodyScroll'
 });
+
 </script>
+
 </body>
 
 </html>

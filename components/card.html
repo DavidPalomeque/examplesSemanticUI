@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Theming - Semantic</title>
+  <title>Semantic UI Templates</title>
   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <!-- SEMANTIC-UI -->
@@ -12,31 +13,6 @@
   <!--- Show Names -->
   <!--<script src="../assets/show-examples.js"></script>--> <!--- MUESTRA NOMBRES, ES ÚTIL --> 
 
-  <!--- Example CSS -->
-  <style>
-    body {
-      padding: 1em;
-    }
-  </style>
-
-  <!--- Example Javascript -->
-  <script>
-  $(document)
-    .ready(function() {
-      $('.special.card .image').dimmer({
-        on: 'hover'
-      });
-      $('.star.rating')
-        .rating()
-      ;
-      $('.card .dimmer')
-        .dimmer({
-          on: 'hover'
-        })
-      ;
-    })
-  ;
-  </script>
 </head>
 
 <body>
@@ -285,6 +261,34 @@
     </div>
   </div>
 </div>
+
+<style>
+
+  body {
+    padding: 1em;
+  }
+
+</style>
+
+<script>
+
+  $(document)
+    .ready(function() {
+      $('.special.card .image').dimmer({
+        on: 'hover'
+      });
+      $('.star.rating')
+        .rating()
+      ;
+      $('.card .dimmer')
+        .dimmer({
+          on: 'hover'
+        })
+      ;
+    })
+  ;
+
+</script>
 
 </body>
 </html>
