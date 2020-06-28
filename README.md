@@ -2,8 +2,6 @@ TO DO
 
 
 
-- Change file names
-
-- Organize code
+- Add three columns in index.html
 
 - Complete README.md

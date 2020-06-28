@@ -11,8 +11,82 @@
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 </head>
 <body>
-    
-<h1> PÁGINA DE INICIO </h1>
+
+
+<div class="ui container">
+
+    <div class="ui grid">
+        <div class="computer only row">
+            <div class="ui fixed inverted menu" id="computerMenu">
+                <div class="ui container">
+                    <a href="#" class="header item"> Project Name </a>
+                    <a class="item right"><i class="github icon"></i>Contribute on Github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tablet only row">
+            <div class="ui fixed inverted menu grid" id="tabletMenu">
+                <a href="" class="item"> Project Name </a>
+                <a href="" class="item right"><i class="github icon"></i>Contribute</a>
+            </div>
+        </div>
+
+        <div class="mobile only row">
+            <div class="ui fixed inverted menu grid" id="mobileMenu">
+                <a href="" class="item"> Project Name </a>
+                <a href="" class="item right"><i class="github icon"></i>Contribute</a>
+            </div>
+        </div>
+
+    </div>
+
+    <h1> SEMANTIC UI TEMPLATES </h1>
+
+    <!--<div class="overlay">
+        <div class="ui labeled icon vertical menu">
+          <a class="item"><i class="github icon"></i>Github</a>
+        </div>
+      </div>-->
+
+</div>
+
+<style>
+
+    body {
+      background-color: silver !important;
+    }
+    body > .ui.container {
+      margin-top: 5em;
+    }
+    #computerMenu {
+      font-size: 1.5em;
+    }  
+    #tabletMenu {
+      font-size: 1.2em;
+    }
+    #mobileMenu {
+      font-size: 1.1em;
+    }
+    .ui.container > h1 {
+      font-size: 3em;
+      text-align: center;
+      font-weight:bold;
+    }
+
+</style>
+
+<script>
+
+// using context
+$('.context.example .ui.sidebar')
+  .sidebar({
+    context: $('.context.example .bottom.segment')
+  })
+  .sidebar('attach events', '.context.example .menu .item')
+;
+
+</script>
 
 </body>
 </html>
