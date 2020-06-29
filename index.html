@@ -43,11 +43,53 @@
 
     <h1> SEMANTIC UI TEMPLATES </h1>
 
-    <!--<div class="overlay">
-        <div class="ui labeled icon vertical menu">
-          <a class="item"><i class="github icon"></i>Github</a>
+    <div class="ui mobile inverted stackable steps">
+      <div class="active step">
+        <div class="content">
+          <i class="eye icon" style="font-size: 2.5em;"></i>
+          <div class="title">Take a look</div>
         </div>
-      </div>-->
+      </div>
+      <div class="active step">
+        <div class="content">
+          <i class="download icon" style="font-size: 2.5em;"></i>
+          <div class="title">Download Source Code</div>
+        </div>
+      </div>
+      <div class="active step">
+        <div class="content">
+          <i class="code icon" style="font-size: 2.5em;"></i>
+          <div class="title">Customize</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui three stackable cards">
+      <a class="card" href="templates/stickyBlog.html">
+        <div class="content">
+          <div class="header">Classic Blog</div>
+        </div>
+        <div class="ui bottom attached button">
+          <i class="eye icon"></i>
+        </div>
+      </a>
+      <a class="card" href="templates/homepageSimple.html">
+        <div class="content">
+          <div class="header">Classic Homepage</div>
+        </div>
+        <div class="ui bottom attached button">
+          <i class="eye icon"></i>
+        </div>
+      </a>
+      <a class="card" href="templates/fixedMenu.html">
+        <div class="content">
+          <div class="header">Classic Blog 2.0</div>
+        </div>
+        <div class="ui bottom attached button">
+          <i class="eye icon"></i>
+        </div>
+      </a>
+    </div>
 
 </div>
 
@@ -55,6 +97,7 @@
 
     body {
       background-color: silver !important;
+      text-align: center;
     }
     body > .ui.container {
       margin-top: 5em;
@@ -72,6 +115,9 @@
       font-size: 3em;
       text-align: center;
       font-weight:bold;
+    }
+    .ui.stackable.cards {
+      margin-top: 1em;
     }
 
 </style>
